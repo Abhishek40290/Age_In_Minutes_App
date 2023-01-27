@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/background"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULATE YOUR"
+        android:textColor="@color/textBlue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:background="@color/bgColor"
+        android:padding="15dp"
+        android:textColor="@color/textBlue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/textBlue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#495285"
+        android:text="SELECT DATE"
+        android:textSize="17dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="31/5/2000"
+        android:textColor="@color/textBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SELECTED DATE"
+        android:textColor="@color/textBlue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ageInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1000000"
+        android:textColor="@color/textBlue"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="YOUR AGE IN MINUTE"
+        android:textColor="@color/textBlue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
